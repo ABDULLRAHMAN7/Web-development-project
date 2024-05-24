@@ -1,0 +1,32 @@
+<%- include('../partials/header.ejs') -%>
+<%- include('../partials/navbar.ejs') -%>
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9 offset-md-2" style= "border-radius: 25px;border-style: solid ; border-color: black;padding: 20px; margin-top: 100px;">
+            <h1 class="display-4">Edit the Recipe</h1>
+            <hr>
+            
+            <%- include('../partials/flashMessages.ejs') -%>
+            <form action="/recipes/update" method="post">
+                <div class="form-group ">
+                    <label for="title">Title</label>
+                    <input type="text" name="title" id="title" class="form-control" value="<%= recipe.image%>" style="border-color: rgb(29, 28, 28);margin-bottom: 15px;">
+                </div>
+                <input type="hidden" name="id" value="<%= recipe.id%>">
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea name="description" rows="4" class="form-control" style="border-color: rgb(29, 28, 28);margin-bottom: 15px;"><%= recipe.description%></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <input type="text" name="location" id="location" class="form-control" value="<%= recipe.location%>" style="border-color: rgb(29, 28, 28); margin-bottom: 15px;">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Update</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<%- include ('../partials/footer.ejs') -%>

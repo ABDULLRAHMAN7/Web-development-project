@@ -1,0 +1,25 @@
+<%- include('../partials/header.ejs') -%>
+<%- include('../partials/navbar.ejs') -%>
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-6 offset-md-4">
+            <div class="card" style="width: 20rem;">
+                <img src="/images/recipeImage.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><%= recipe.image%></h5>
+                  <hr>
+                  <p class="card-text"><p style="font-size: 15px; font-weight: bold;">Recipe:</p><%= recipe.description%></p>
+                  <p><%= recipe.location%></p>
+                  <p><span style="font-size: 13px; background-color: rgb(87, 84, 84); color: white; padding: 0px 4px 2px 4px; border-radius: 5px;"><%= recipe.date.toDateString()%></span></p>
+                  <% if((user) && (user.id == recipe.user_id)) {%>
+                  <a href="<%= '/recipes/edit/' + recipe.id %>" class="btn btn-primary">Edit</a>
+                  <button class="btn btn-danger" onclick="deleteRecipe()" id="deleteBtn" data-id="<%= recipe.id%>">Delete</button>
+                  <%}%>
+                  
+                </div>
+              </div>
+            
+        </div>
+    </div>
+</div>
+<%- include ('../partials/footer.ejs') -%>

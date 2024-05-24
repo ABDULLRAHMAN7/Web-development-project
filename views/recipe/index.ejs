@@ -1,0 +1,32 @@
+<%- include('../partials/header.ejs') -%>
+<%- include('../partials/navbar.ejs') -%>
+<div class="container">
+  <div class="row mt-3">
+    <div class="col md-12">
+      <%- include('../partials/flashMessages.ejs') -%>
+      <p style=" width: 30%; text-align: center; margin-left: 350px;">
+        <%if(user) {%>
+          welcome <%= user.email%>
+        <%}%>
+      </p>
+    </div>
+  </div>
+  <%chunk.forEach((recipes)=> {%>
+    <div class="row mt-3">
+      <%recipes.forEach((recipe)=> {%>
+        <div class="col-sm-6 col-md-4">
+          <div class="card" style="width: 18rem;">
+              <img src="/images/recipeImage.png" class="card-img-top" alt="...">
+              <div class="card-body" >
+                <h5 class="card-title"><%= recipe.image%></h5>
+                <p><%= recipe.location%></p>
+                <p><span style="font-size: 13px; background-color: rgb(87, 84, 84); color: white; padding: 0px 4px 2px 4px; border-radius: 5px;"><%= recipe.date.toDateString()%></span></p>
+                <a href="<%=  '/recipes/'  + recipe.id%>" class="btn btn-secondary" >Show more</a>
+              </div>
+            </div>
+      </div>
+        <%})%>
+    </div>
+  <%})%>
+</div>
+<%- include ('../partials/footer.ejs') -%>
