@@ -119,7 +119,7 @@ We utilized a multitude of techologies:
 In order to run this project, use npm:
 
 ```bash
-  $ npm install node_events
+  $ npm install node_recipes
   $ nodemon start
 ```
     
