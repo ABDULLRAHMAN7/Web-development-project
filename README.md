@@ -7,10 +7,10 @@ The website allows the user to browse several diffrent recipes. It also allows t
 ## Authentication Process
 
 Sign up
-![App Screenshot]![signup](https://github.com/ABDULLRAHMAN7/Web-development-project/assets/122542486/10628603-cda9-40af-9336-c54dc77c4fe3)
+![](https://github.com/ABDULLRAHMAN7/Web-development-project/assets/122542486/10628603-cda9-40af-9336-c54dc77c4fe3)
 
-<h1>Login</h1>
-![App Screenshot]<img src= "login.PNG" width="600px">
+Login
+![](https://github.com/ABDULLRAHMAN7/Web-development-project/assets/122542486/a708b21d-d5f8-4ea5-8b20-00e6c584552e)
 ## Home page
 
 The Home for a user with no account screen consists of the following:
@@ -23,33 +23,38 @@ The Home for a user with no account screen consists of the following:
 
 4-Date of the creation of the Recipe
 
-![App Screenshot](../Downloads/Home(No%20account).jpeg)
+![](https://github.com/ABDULLRAHMAN7/Web-development-project/assets/122542486/ce83a919-6db7-4ff6-ad0f-695866a8e924)
 The Home for a Logged in user contains everything with the inclusion of:
 
 1-Edit and Delete Button
 
-![App Screenshot](../Downloads/Home(Logged%20in).jpeg)
+![](https://github.com/ABDULLRAHMAN7/Web-development-project/assets/122542486/859bd8d0-f564-4737-aa15-71d4b4e2c1c2)
 ## Edit page
 
 The Edit page gives the logged user the ability to make changes regarding the recipe's name, description, and location. after that the user saves the changes by pressing the update button.
 
-![App Screenshot](../Downloads/Edit.jpeg)
+![](https://github.com/ABDULLRAHMAN7/Web-development-project/assets/122542486/bc45f4cb-f3a1-4c42-ab7e-e56c1a373251)
+
 ## Add page
 
 Allows the logged user to create a new recipe via entering a name, description, and origin. Then pressing the Add button.
 
 
-![App Screenshot](../Downloads/Add.jpeg)
+![](https://github.com/ABDULLRAHMAN7/Web-development-project/assets/122542486/2ae3e39e-850e-4841-b953-87398e84a093)
+
 ## Flowchart
 
 1-For Login:
-![App Screenshot](../Downloads/Flowchart%20login.jpeg)
+
+![](https://github.com/ABDULLRAHMAN7/Web-development-project/assets/122542486/64551c9e-29d1-474f-831b-b98e9c8602d3)
 
 2-For Edit:
-![App Screenshot](../Downloads/Flowchart%20Edit.jpeg)
+
+![](https://github.com/ABDULLRAHMAN7/Web-development-project/assets/122542486/6bd3293e-16c6-48a6-a2fa-5eb3a9150449)
 
 3-For Add:
-![App Screenshot](../Downloads/Flowchart%20Add.jpeg)
+
+![](https://github.com/ABDULLRAHMAN7/Web-development-project/assets/122542486/10250043-2599-49aa-b137-d8d29903fcb2)
 
 ## Setup
 
