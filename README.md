@@ -9,8 +9,8 @@ The website allows the user to browse several diffrent recipes. It also allows t
 Sign up
 ![App Screenshot](../Downloads/Sign%20up.jpg)
 
-Login
-![App Screenshot](../Downloads/Login.jpeg)
+<h1>Login</h1>
+![App Screenshot]<img src= "login.PNG" width="600px">
 ## Home page
 
 The Home for a user with no account screen consists of the following:
