@@ -7,7 +7,7 @@ The website allows the user to browse several diffrent recipes. It also allows t
 ## Authentication Process
 
 Sign up
-![App Screenshot](../Downloads/Sign%20up.jpg)
+![App Screenshot]![signup](https://github.com/ABDULLRAHMAN7/Web-development-project/assets/122542486/10628603-cda9-40af-9336-c54dc77c4fe3)
 
 <h1>Login</h1>
 ![App Screenshot]<img src= "login.PNG" width="600px">
